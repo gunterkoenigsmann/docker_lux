@@ -3,8 +3,7 @@ FROM debian:oldstable
 
 ARG ARCH=x86_64
 
-RUN apt-get update && apt-get -q -y install  vc-dev libvigraimpex-dev libsfml-dev libexiv2-dev clang
- git wget fuse cmake
+RUN apt-get update && apt-get -q -y install  vc-dev libvigraimpex-dev libsfml-dev libexiv2-dev clang git wget fuse cmake
 
 RUN git clone git clone https://bitbucket.org/kfj/pv && \
 
