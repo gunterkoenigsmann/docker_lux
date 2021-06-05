@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=lux
+Exec=foo2
+Comment=lux - a free open source image and panorama viewer
+# Icon=lux
+Categories=Graphics;
+Terminal=false
